@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "201886359567",
+    "firebase_url": "https://inclassassignment08-wanshu.firebaseio.com",
+    "project_id": "inclassassignment08-wanshu",
+    "storage_bucket": "inclassassignment08-wanshu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201886359567:android:ceed80075c53d0b2",
+        "android_client_info": {
+          "package_name": "com.wanshuw.inclassassignment08_wanshu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201886359567-27ss9v0h2hf44dqjeoa7kjpiaihk157j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wanshuw.inclassassignment08_wanshu",
+            "certificate_hash": "bfd4e0b63aff7ac5be151b5f097d605c20ecd93f"
+          }
+        },
+        {
+          "client_id": "201886359567-ojmrclb5m4mtlourn3bvvh2c28aqi9v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9OcYvnnveSBQIuuGr3IbJPl6HOIJnLC8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201886359567-ojmrclb5m4mtlourn3bvvh2c28aqi9v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
