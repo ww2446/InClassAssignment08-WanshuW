@@ -33,17 +33,19 @@
 
     <Button
         android:text="Register"
-        android:layout_width="159dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:background="#FFEBEE"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="33dp"
+        android:layout_margin="10dp"
         android:id="@+id/register"
         android:onClick="register" />
 
     <Button
         android:text="log in"
-        android:layout_width="164dp"
+        android:background="#FFEBEE"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/login"
         android:onClick="login"/>

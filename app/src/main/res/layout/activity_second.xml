@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_second"
     android:layout_width="match_parent"
@@ -21,45 +21,72 @@
         android:id="@+id/textView" />
 
     <TextView
+        android:text="Your Profile Info:"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"
+        android:background="#FCE4EC"
+        android:padding="8dp"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="5dp"
-        android:paddingTop="5dp"
-        android:layout_marginTop="5dp"
-        android:text="Your Name:"
-        android:textSize="16sp"
-        android:gravity="center_horizontal"
-        android:background="#cecdcd"/>
+        android:id="@+id/textView2" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="20dp"
-        android:paddingTop="20dp"
-        android:text="not set"
-        android:textSize="22sp"
-        android:gravity="center_horizontal"
-        android:background="#ecebeb"
-        android:id="@+id/showName"/>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Name:"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Type your Name"
-        android:inputType="textPersonName"
-        android:id="@+id/name"/>
+        <TextView
+            android:text="Not set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/showName" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Update name"
-        android:id="@+id/update"
-        android:onClick="changeName"/>
+    </TableRow>
 
-    <Button
+    <TableRow
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Log out"
-        android:id="@+id/log_out"
-        android:onClick="logout"/>
-</LinearLayout>
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Age:"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/age" />
+
+        <TextView
+            android:text="Not set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/showAge" />
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Gender:"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gender" />
+
+        <TextView
+            android:text="Not set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/showGender" />
+
+    </TableRow>
+
+
+
+
+</TableLayout>
